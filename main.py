@@ -12,7 +12,7 @@ import pandas as pd
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 import plotly.express as px
-evcars = pd.read_csv('./data/IEA-EV-dataEV salesHistoricalCars')
+evcars = pd.read_csv('./data/IEA-EV-dataEV salesHistoricalCars.csv')
 
 evcars_historical= evcars
 
