@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1jsxgay2Rq8akLpkqXImVTSvDDuI3IHyG
 """
 import dash
-from dash import dcc, html
+from dash import dcc, html, Dash
 import pandas as pd
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
