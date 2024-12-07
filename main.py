@@ -193,6 +193,7 @@ app.layout = html.Div([
                "sources and a reduction in reliance on fossil fuels."),
         dcc.Graph(id='electricity-vs-oil', figure=Dani4)
     ])
+])
 
 if __name__ == '__main__':
     app.run_server(debug=True, port=8080)
