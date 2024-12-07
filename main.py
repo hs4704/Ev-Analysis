@@ -152,7 +152,7 @@ Dani4.update_layout(
     ),
     template="plotly"
 )
-
+#Dani4.show()
 
 app = Dash(__name__)
 
