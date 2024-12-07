@@ -60,7 +60,7 @@ Dani1.update_layout(
 
 Dani1.update_yaxes(range=y_axis_range, tickvals=[i for i in range(0, 101, 20)], ticktext=[f'{i}%' for i in range(0, 101, 20)])
 Dani1.update_traces(text= ev_sales_share_aggregated['value'].apply(lambda x:"<1%" if x< 1 else f"{x: .0f}%"))
-Dani1.show()
+
 
 # Filter the data for 'EV sales share' category and the year 2023
 ev_sales_share_2023 = evcars_historical[(evcars_historical['parameter'] == 'EV sales share') & (evcars_historical['year'] == 2023)]
@@ -83,8 +83,8 @@ Dani2 = px.bar(ev_sales_share_2023_aggregated,
 Dani2.update_traces( text= ev_sales_share_2023_aggregated['value'].apply(lambda x:"<1%" if x< 1 else f"{x: .0f}%"),
                   textposition='outside')
 
-# Show the plot
-Dani2.show()
+
+
 
 ev_stock_share= evcars_historical[evcars_historical['parameter'] == 'EV stock share']
 oil_displacement= evcars_historical[evcars_historical['parameter'] == 'Oil displacement Mbd']
@@ -96,7 +96,7 @@ Dani3= px.scatter(merge_data, x='value_ev', y='value_oil',
                 labels={'value_ev':'Ev Stock Share(%)', 'value_oil':'Oil displacement (Mbd)'}
                 )
 
-Dani3.show()
+
 
 electricity = evcars_historical[evcars_historical['parameter'] == 'Electricity demand']
 oil_displacement = evcars_historical[evcars_historical['parameter'] == 'Oil displacement Mbd']
@@ -153,7 +153,6 @@ Dani4.update_layout(
     template="plotly"
 )
 
-Dani4.show()
 
 app = Dash(__name__)
 
