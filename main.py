@@ -26,9 +26,10 @@ from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import subplots
 
-#evcars = pd.read_csv('./data/IEA-EV-dataEV salesHistoricalCars.csv')
-evcars = pd.read_csv('/content/IEA-EV-dataEV salesHistoricalCars.csv')
-projected_evcars = pd.read_csv('/content/IEA-EV-dataEV salesProjection-STEPSCars.csv')
+evcars = pd.read_csv('./data/IEA-EV-dataEV salesHistoricalCars.csv')
+#evcars = pd.read_csv('/content/IEA-EV-dataEV salesHistoricalCars.csv')
+#projected_evcars = pd.read_csv('/content/IEA-EV-dataEV salesProjection-STEPSCars.csv')
+projected_evcars = pd.read_csv('./data/IEA-EV-dataEV salesProjection-STEPSCars.csv')
 
 evcars_historical= evcars
 
