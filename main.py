@@ -643,7 +643,7 @@ app.layout = html.Div([
             html.Div([
                 html.H2("Proportional EV Sales in USA (2011-2023)"),
                 html.P("Annually, EV sales have grown significantly in the US, making up a more substantial portion of the market in the 2020s when compared to the 2010s."),
-                dcc.Graph(id='EV-Stock-Ratio-Region', figure=mia4)
+                dcc.Graph(id='proportional-EV-Sales-USA', figure=mia4)
             ]),
             html.Div([
                 html.H2("EV Sales for BRICS nations over time"),
