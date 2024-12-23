@@ -1,6 +1,6 @@
 # Ev-Analysis
 ## Overview 
-This Project ecplores trends in electric vehicle (EV) adoption worldwide and across key regions (World, Norway, United Kingdom, EU27, China, and USA) from 2011 to 2023. Using historical EV sales and sales share data, we created interactive visualizations to analyze the share of new cars that are electric, including battery-electric vehicles (BEVs) and plug-in hybrid electric vehicles (PHEVs). The project also demonstrates how we created a dashboard app through deployment on Google Cloud Platform (GCP).
+This Project explores trends in electric vehicle (EV) adoption worldwide and across key regions (World, Norway, United Kingdom, EU27, China, and USA) from 2011 to 2023. Using historical EV sales and sales share data, we created interactive visualizations to analyze the share of new cars that are electric, including battery-electric vehicles (BEVs) and plug-in hybrid electric vehicles (PHEVs). The project also demonstrates how we created a dashboard app through deployment on Google Cloud Platform (GCP).
 ## Features
 - **Data Analysis**: Used aggregate and analysis function in Python for EV sales data to filter among regions, years
 - Used for loops and other math codes to find the toal percentage of all cars bought that were EV.
